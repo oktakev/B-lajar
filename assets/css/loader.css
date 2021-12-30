@@ -1,0 +1,11 @@
+
+.probootstrap-loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  background: #ffffff url(../img/buletan.gif) center no-repeat;
+}
+

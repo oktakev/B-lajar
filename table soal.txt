@@ -1,0 +1,29 @@
+kategori(jenis ujian)
+id_kategori (int,AI)
+nama_kategori (varchar,100,)
+
+ujian
+id_ujian (int,AI)
+waktu_ujian (date_time)
+nama_ujian (varchar,100)
+lama_ujian (varchar,50)
+id_kategori
+id_kelas
+
+soal
+id_soal (id, AI)
+soal (varchar, 100)
+pilihan a (varchar,100)
+pilihan b (varchar,100)
+pilihan c (varchar,100)
+pilihan d (varchcar,100)
+jawaban_benar (varchar,100)
+id_ujian
+
+jawaban
+id_jawaban
+id_soal
+id_siswa	
+jawaban_user (varchar,100)
+status (benar/salah) (varchar,100)
+
